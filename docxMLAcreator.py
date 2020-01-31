@@ -54,4 +54,4 @@ if __name__ == "__main__":
     course = input("Enter course number and section number (Ex. CS-260-003, or however your school does it):\n")
     title = input("Enter title of your paper:\n")
     createFile(name,date,prof,course,title,file_path)
-    os.system('start %s' %(file_path))
+    os.startfile(file_path)
