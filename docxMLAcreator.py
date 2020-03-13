@@ -19,7 +19,7 @@ def createPath():
 def setMLAstyle(document):
     style = document.styles['Normal']
     paragraph_format = document.styles['Normal'].paragraph_format
-    paragraph_format.line_spacing = 1.5
+    paragraph_format.line_spacing = 2.0
     font = style.font
     font.name = 'Times New Roman'
     font.size = Pt(12)
